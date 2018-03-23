@@ -51,8 +51,8 @@ function drawMiniChart(properties) {
     chart = c3.generate({
         bindto: '#minichart',
         size: {
-          height: 200,
-          width: 200
+          height: 450,
+          width: 350
         },
         color: {
                   pattern: ['#1b9e77','#e7298a','#66a61e', '#d95f02']

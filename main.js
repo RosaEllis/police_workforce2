@@ -50,8 +50,8 @@ workforcePercentageChange2010to2017 = {}
 // to do anything see https://learn.jquery.com/using-jquery-core/document-ready/
 $( document ).ready(function() {
   queue()
-    .defer(d3.json, "data/london_ward.geojson")
-    .defer(d3.csv, "data/finaldata9.csv", function(d) {
+    .defer(d3.json, "london_ward.geojson")
+    .defer(d3.csv, "finaldata9.csv", function(d) {
 
         random[d['code']] = d['random'];
         code[d['code']] = d['name'];
